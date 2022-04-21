@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/citytlaw/public_html/lactoweb.com
+    - /bin/cp * $DEPLOYPATH
