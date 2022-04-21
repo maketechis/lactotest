@@ -1,0 +1,57 @@
+
+body {
+    padding: 1rem 0.5rem;
+    font-weight: 600;
+}
+
+.card {
+    width: 100%;
+    box-shadow: 0 0 10px 10px #e5e5e5;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.candidate_title {
+    font-size: 1.5rem;
+    margin-bottom: 0;
+    font-weight: 800;
+}
+.avatar-container {
+    display:flex;
+    width:100%;
+    justify-content: center; 
+    margin-top: -90px;
+}
+
+.avatar-inner-container {
+    display:flex;
+    height: 9rem;
+    width: 9rem;
+    padding: 10px;
+    border-radius: 100%;
+    background-color:white;
+    border: 5px solid white;
+    overflow: hidden;
+}
+
+.avatar-inner-container img { 
+    min-width: calc(100%);
+    min-height: calc(100%);
+    transform: scale(1.2); 
+}
+
+.content-icon-wrapper {
+    width: 2rem;
+    display: inline-block;
+    font-size:  1.25rem;
+}
+
+.callto_action_link {
+    color: #8cbe00;
+    transition: all 0.3s;
+    
+}
+
+.callto_action_link:hover {
+    text-decoration: none;
+    color: #486201;
+}
